@@ -1,0 +1,25 @@
+required {
+font-size: 10px;
+color: white;
+position: absolute;
+left: 350px;
+color: rgba(255, 255, 255, .3);
+animation-name: glownrot;
+animation-duration: 1000ms;
+animation-iteration-count: infinite;
+}
+
+@keyframes glownrot {
+0%, 100% {
+color: rgba(255, 255, 255, .3);
+font-size: 10px;
+text-align: center;
+transform: rotateY(180deg);
+}
+50% {
+color: rgba(255, 255, 255, 1);
+font-size: 20px;
+text-align: center;
+transform: rotateY(0deg);
+}
+}

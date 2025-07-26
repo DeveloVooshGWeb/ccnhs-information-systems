@@ -1,0 +1,81 @@
+* {
+margin: 0px;
+font-family: "Choco Cooky";
+color: white;
+font-size: 0px;
+}
+
+#block {
+height: 120px;
+}
+
+a {
+position: absolute;
+left: 10px;
+color: grey;
+font-size: 20px;
+transition: .5s;
+}
+
+a:hover {
+font-size: 25px;
+transition: .5s;
+}
+
+#submit {
+border: 2px solid white;
+border-radius: 5px;
+font-size: 20px;
+background-color: #343434;
+color: white;
+transition: .3s;
+}
+
+#submit:hover {
+background-color: #676767;
+color: #333;
+transition: .3s;
+}
+
+p {
+font-size: 20px;
+color: red;
+transition: .5s;
+animation-name: Wrong;
+animation-delay: .4s;
+animation-duration: .4s;
+animation-iteration-count: 1;
+}
+
+@keyframes Wrong {
+0%, 20%, 50% {
+position: absolute;
+left: 20px;
+}
+10%, 40%, 100% {
+position: absolute;
+left: 10px;
+}
+}
+
+#hidden {
+position: absolute;
+top: 20000px;
+left: 20000px;
+font-size: 0px;
+}
+
+input {
+border: 2px solid white;
+border-radius: 10px;
+color: white;
+background-color: #343434;
+text-align: center;
+width: 300px;
+height: 20px;
+font-size: 20px;
+}
+
+#space {
+height: 20px;
+}

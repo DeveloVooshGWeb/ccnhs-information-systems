@@ -1,0 +1,29 @@
+* {
+font-family: "Choco Cooky";
+color: white;
+margin: 0px;
+}
+
+button {
+border: none;
+background-color: #232323;
+}
+
+tr {
+border: 2px solid white;
+}
+
+table {
+box-shadow: 0 0 10px white, 0 0 40px white;
+}
+
+input {
+border: 2px solid white;
+background-color: #232323;
+}
+
+table {
+border: 0.5px solid #dddddd;
+margin: 0px;
+font-size: 16px;
+}

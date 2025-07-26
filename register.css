@@ -1,0 +1,18 @@
+* {
+margin: 0px;
+font-family: "Choco Cooky";
+}
+
+option {
+font-size: 20px;
+color: white;
+background-color: #232323;
+border: 1px solid white;
+}
+
+select {
+    font-size: 20px;
+    color: white;
+    background-color: #232323;
+    border: 1px solid white;
+    }

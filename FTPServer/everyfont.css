@@ -1,0 +1,8 @@
+@font-face {
+src: url(Chococooky.ttf);
+font-family: "Choco Cooky";
+}
+
+* {
+font-family: "Choco Cooky";
+}

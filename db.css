@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    color: white;
+    font-family: "Choco Cooky";
+}
+
+newt {
+    font-size: 20px;
+    color: white;
+}
+
+/*
+WHERE Firstname='". $firstname ."' AND Middlename='". $middlename ."' AND Initial='". $initial ."' AND Lastname='". $lastname ."' AND Age='". $age ."' AND Gender='". $gender ."' AND Grade='". $grade ."' AND Section='". $section ."' AND SY='". $SY ."' AND LRN='". $LRN ."'"
+*/

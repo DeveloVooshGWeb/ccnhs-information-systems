@@ -1,0 +1,143 @@
+* {
+margin: 0;
+font-family: ""Choco Cooky"";
+}
+
+
+.topbar {
+background-color: #222;
+}
+
+.sidebar {
+background-color: grey;
+overflow: hidden;
+display: block;
+}
+
+.sidebar > * {
+overflow: hidden;
+display: block;
+}
+
+.sidebar-btn {
+background-color: transparent;
+height: 20px;
+width: 90px;
+font-size: 20px;
+transition: .5s;
+}
+
+.sidebar-btn:hover {
+background-color: white;
+transition: .5s;
+box-shadow: 0 0 0px white, 0 0 20px white;
+}
+
+.topbar-btn {
+background-color: transparent;
+height: 30px;
+width: 90px;
+font-size: 20px;
+transition: .5s;
+color: white;
+}
+
+.topbar-btn:hover {
+background-color: #333;
+transition: .5s;
+box-shadow: 0 0 0px #333, 0 0 20px #333;
+}
+
+.records-btn {
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+.notlogged-btn {
+position: absolute;
+left: 10px;
+top: 50px;
+}
+
+.login-btn {
+position: absolute;
+top: 10px;
+right: 150px;
+text-align: center;
+}
+
+.logout-btn {
+position: absolute;
+top: 10px;
+right: 150px;
+text-align: center;
+}
+
+.request-btn {
+position: absolute;
+top: 50px;
+left: 10px;
+}
+
+.notadmin-btn {
+position: absolute;
+top: 90px;
+left: 10px;
+}
+
+.requests-btn {
+position: absolute;
+top: 50px;
+left: 10px;
+}
+
+.db-btn {
+position: absolute;
+top: 90px;
+left: 10px;
+}
+
+.register-btn {
+position: absolute;
+top: 10px;
+right: 50px;
+text-align: center;
+}
+
+.archived-btn {
+position: absolute;
+top: 130px;
+left: 10px;
+}
+
+.admin-btn {
+position: absolute;
+top: 170px;
+left: 10px;
+}
+
+#show-btn {
+font-size: 40px;
+width: 40px;
+height: 40px;
+background-color: #444444;
+color: black;
+text-align: center;
+transition: .5s;
+}
+
+#show-btn:hover {
+background-color: #bbbbbb;
+color: white;
+cursor: pointer;
+transition: .5s;
+}
+
+.sidebar-btn:hover, .topbar-btn:hover {
+cursor: pointer;
+}
+
+body {
+background-color: #161616;
+}
